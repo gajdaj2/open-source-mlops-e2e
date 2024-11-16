@@ -1,0 +1,8 @@
+[core]
+    remote = mylocal
+['remote "s3_remote"']
+    url = s3://cv-apollo-resumes/
+['remote "s3_remote_dvc"']
+    url = s3://arn:aws:s3:eu-north-1:403244235733:accesspoint/dvc-access-point
+['remote "mylocal"']
+    url = /Users/apple/data_dvc
